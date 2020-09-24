@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    font-style: normal;
+}
+body{
+    background-color: #cdcdcd;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #323232;
+}
+
+header label{
+    color: white;
+    font-size: 24px;
+    float: left;
+}
+
+header input{
+    float: right;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 26px;
+    width: 360px;
+    margin-top: 10px;
+    text-indent: 10px;
+}
+
+
+section{
+    width: 600px;
+    margin: auto;
+}
+
+section h3{
+    display: inline-block;
+    margin: 15px 0;
+    width: 100%;
+}
+
+h3{
+    position: relative;
+}
+
+h3 span{
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: white;
+}
+
+input[type='checkbox']{
+    display: inline-block;
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+}
+
+ol li{
+    background-color: white;
+}
+
+ul li{
+    background-color: #e6e6e6;
+}
+
+li{
+    margin: 10px 0;
+    padding: 5px 0;
+    width: 100%;
+}
+
+li span{
+    display: inline-block;
+    vertical-align: top;
+}
+
+li img{
+    cursor: pointer;
+    float: right;
+    z-index:99;
+    margin-top: 4px;
+    margin-right: 5px;
+}
